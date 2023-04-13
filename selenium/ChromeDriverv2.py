@@ -4,7 +4,7 @@ from selenium_stealth import stealth
 import time,os 
 from webdriver_manager.chrome import ChromeDriverManager
 root = os.path.dirname(os.path.abspath(__file__))
-profile ="roller" 
+profile ="game" 
 agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 profile_dir = root+"/"+profile
 if not os.path.isdir(profile_dir):
