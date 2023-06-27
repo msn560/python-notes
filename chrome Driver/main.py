@@ -1,4 +1,4 @@
 import driver 
 
 chrome = driver.driver("chromeProfile")
-chrome.get("https://gamil.com")
+chrome.get("https://gmil.com")
